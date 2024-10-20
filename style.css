@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+
+body {
+background: #7EFDBA;
+height: 100vh;
+}
+
+.butt{
+  display: flex;
+  flex-flow: wrap;
+  justify-content:center ;
+  margin-top: 0px ;
+  margin-bottom: 10px ;
+  
+  
+}
+section{
+  background: #FFFFFFD4;
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+  padding-top: 10px;
+  border-radius: 20px;
+  border: solid 3px black;
+  margin: auto;
+  
+  
+}
+input{
+  border: none;
+  outline: none;
+  border: solid 5px #fff;
+  color: #fff;
+}
+button:active{
+  background:#000000D1 ;
+  
+}
+
+
+#inp{
+  background: #222;
+  font-size:50px;
+  width: 95%;
+  height: 100px;
+  margin: auto ;
+  border-radius: 10px;
+  
+
+  
+  
+}
+
+button{
+  width: 100px;
+  height:100px;
+  border-radius:50%;
+  border: none;
+  outline: none;
+  margin:5px;
+  font-size:40px ;
+  font-weight: 1000;
+  background: black;
+  color: white;
+}
+
+#hisp{
+  width: 100%;
+  border-radius:10px;
+  background: black;
+  border: solid 5px white;
+  
+  
+}
+#dilt{
+  background: #FF0B0BD9;
+}
+
+#ho{
+  background: limegreen;
+}
+
+h1 {
+
+  font-size:35px ;
+  margin: 10px ;
+  padding-left: 10px;
+  color: #4FFF00;
+  width: fit-content;
+  font-weight: bold;
+  padding: 5px;
+  border-radius:20px;
+  background: #00000063;
+}
